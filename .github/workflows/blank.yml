@@ -10,7 +10,7 @@ jobs:
 
   steps:
   -name: Downloading Ngrok..
-   run:
+   run: |
      Invoke-WebRequest https://raw.githubusercontent.com/romain09/AliS-RDP/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip 
     Invoke-WebRequest https://raw.githubusercontent.com/romain09/ANS-RDP/main/start.bat -OutFile start.bat
 
